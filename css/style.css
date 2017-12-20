@@ -1,0 +1,44 @@
+/*fonts and color reference*/
+
+.parallax{
+	height: 750px;
+	background-color: grey;
+	border-style: dotted;
+}
+
+/*Navbar*/
+
+/*footer*/
+.footer{
+	height: 200px;
+	background-color: red;
+
+}
+
+/*booking*/
+.booking{
+	height: 350px;
+	background-color: purple;
+}
+
+
+/*intro*/
+.intro{
+	background-color: blue;
+}
+
+/*categories*/
+.categories{
+	height: 400px;
+}
+
+/*location*/
+.location{
+	background-color: teal;
+}
+
+/*Social Media*/
+.socialMedia{
+	height: 350px;
+	background-color: black;
+}
