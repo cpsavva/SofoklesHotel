@@ -2,7 +2,6 @@
 
 .parallax{
 	height: 750px;
-	background-color: grey;
 	border-style: dotted;
 }
 
@@ -11,34 +10,40 @@
 /*footer*/
 .footer{
 	height: 200px;
-	background-color: red;
+	background-color: violet;
 
 }
-
+/*home*/
+.carousel {
+	width: 100%;
+}
+img {
+	width: 100%;
 /*booking*/
 .booking{
 	height: 350px;
-	background-color: purple;
+	background-color: orange;
 }
 
 
 /*intro*/
 .intro{
-	background-color: blue;
+	background-color: yellow;
 }
 
 /*categories*/
 .categories{
 	height: 400px;
+	background-color: green
 }
 
 /*location*/
 .location{
-	background-color: teal;
+	background-color: blue;
 }
 
 /*Social Media*/
 .socialMedia{
 	height: 350px;
-	background-color: black;
+	background-color: indigo;
 }
