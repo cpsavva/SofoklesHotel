@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://use.fontawesome.com/c76343afc7.js"></script>
 		<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -41,7 +42,7 @@
 		</div>
 		<!-- Slideshow -->
 		<div class="parallax home">
-			<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+<!-- 			<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="carousel-item active">
 						<img class="d-block img-fluid" src="./TestPics/test1.jpg" alt="First slide">
@@ -59,10 +60,37 @@
 						<img class="d-block img-fluid" src="./TestPics/test5.jpg" alt="Fifth slide">
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<!-- Booking -->
-		<div class="parallax booking"></div>
+		<div class="parallax booking">
+			<div class="container">
+				<h3 class="text-center">Reservations</h3>
+				<div class="form-group row">
+					<label for="example-date-input" class="col-2 col-form-label">Arrival</label>
+					<div class="col-3">
+						<input class="form-control" type="date" id="example-date-input">
+					</div>
+					<label for="example-date-input" class="col-2 col-form-label">Departure</label>
+					<div class="col-3">
+						<input class="form-control" type="date" placeholder="departure" id="example-date-input"><i class="fa fa-calendar" aria-hidden="true"></i>
+					</div>
+					<div class="col-3 form-group">
+						<select class="form-control" id="exampleSelect1">
+							<option selected>Guests</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</div>
+					<form class="form-inline">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Book Now!</button>
+					</form>
+				</div>
+			</div>
+		</div>
 		<!-- Intro -->
 		<div class="parallax intro"></div>
 		<!-- Category Thumbnails -->
