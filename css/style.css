@@ -37,7 +37,10 @@ img {
 	height: 400px;
 	background-color: green
 }
-
+.TNCategories{
+	height: 200px;
+	width: 200px;
+}
 /*location*/
 .location{
 	background-color: blue;

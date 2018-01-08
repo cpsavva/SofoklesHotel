@@ -33,7 +33,7 @@
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Rooms</a>
 								<a class="dropdown-item" href="#">Amenities</a>
-								<a class="dropdown-item" href="#">Pelion</a>
+								<a class="dropdown-item" href="#">Pilio</a>
 							</div>
 						</li>
 					</ul>
@@ -42,65 +42,111 @@
 		</div>
 		<!-- Slideshow -->
 		<div class="parallax home">
-<!-- 			<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active">
-						<img class="d-block img-fluid" src="./TestPics/test1.jpg" alt="First slide">
+<!-- 						<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+									<img class="d-block img-fluid" src="./TestPics/test1.jpg" alt="First slide">
+							</div>
+							<div class="carousel-item">
+									<img class="d-block img-fluid" src="./TestPics/test2.jpg" alt="Second slide">
+							</div>
+							<div class="carousel-item">
+									<img class="d-block img-fluid" src="./TestPics/test3.jpg" alt="Third slide">
+							</div>
+							<div class="carousel-item">
+									<img class="d-block img-fluid" src="./TestPics/test4.jpg" alt="Fourth slide">
+							</div>
+							<div class="carousel-item">
+									<img class="d-block img-fluid" src="./TestPics/test5.jpg" alt="Fifth slide">
+							</div>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="./TestPics/test2.jpg" alt="Second slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="./TestPics/test3.jpg" alt="Third slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="./TestPics/test4.jpg" alt="Fourth slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="./TestPics/test5.jpg" alt="Fifth slide">
-					</div>
-				</div>
 			</div> -->
 		</div>
 		<!-- Booking -->
 		<div class="parallax booking">
 			<div class="container">
-				<h3 class="text-center">Reservations</h3>
-				<div class="form-group row">
-					<label for="example-date-input" class="col-2 col-form-label">Arrival</label>
-					<div class="col-3">
-						<input class="form-control" type="date" id="example-date-input">
-					</div>
-					<label for="example-date-input" class="col-2 col-form-label">Departure</label>
-					<div class="col-3">
-						<input class="form-control" type="date" placeholder="departure" id="example-date-input"><i class="fa fa-calendar" aria-hidden="true"></i>
-					</div>
-					<div class="col-3 form-group">
-						<select class="form-control" id="exampleSelect1">
-							<option selected>Guests</option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-						</select>
-					</div>
-					<form class="form-inline">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Book Now!</button>
-					</form>
-				</div>
-			</div>
+				<fieldset class="form-group">
+					<legend class="text-center">Reservations</legend>
+					<label for="arrival">Arrival</label>
+					<input class="form-control" type="date" name="arrival" id="arrival">
+					<label for="departure">Departure</label>
+					<input class="form-control" type="date" name="departure" id="departure">
+					<label class="sr-only" for="guests">Guests</label>
+					<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="guests">
+						<option selected>Guests</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+				</fieldset>
+			<!-- <h2 class="text-center">Reservations</h2>
+			<form>
+			
+				<label for="arrival">Arrival</label>
+				<input type="date" class="form-control" id="arrival" placeholder="Arrival" value="Arrival">
+				
+			
+				<label  for="departure">Departure</label>
+				<input type="date" class="form-control" id="departure" placeholder="Departure">
+				
+				<label for="guests">Guests</label>
+				<select class="custom-select form-control" id="guests">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4+</option>
+				</select>
+				
+				<button type="submit" class="btn btn-primary">Check Availability</button>
+			</form>
+			</div> -->
 		</div>
 		<!-- Intro -->
-		<div class="parallax intro"></div>
+		<div class="parallax intro">
+			<div class="container text-center">
+				<h2>Welcome to Sofokles Hotel!</h2>
+				<br>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<br>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</div>
+		</div>
 		<!-- Category Thumbnails -->
-		<div class="parallax categories"></div>
+		<div class="parallax categories">
+			<div class="container">
+					<img class="TNCategories img-thumbnail" src="./TestPics/thumbnail1.jpg" alt="thumbnail1">
+					<img class="TNCategories img-thumbnail" src="./TestPics/thumbnail2.jpg" alt="thumbnail2">
+					<img class="TNCategories img-thumbnail" src="./TestPics/thumbnail3.jpg" alt="thumbnail3">
+			</div>
+		</div>
 		<!-- Location Description -->
-		<div class="parallax location"></div>
+		<div class="parallax location">
+			<div class="container text-center">
+				<h2>Pilio</h2>
+				<br>
+			</div>
+		</div>
 		<!-- Social Media -->
-		<div class="parallax socialMedia"></div>
+		<div class="parallax socialMedia">
+			<!-- find a ticker to use for this -->
+		</div>
 		<!-- Footer -->
-		<div class="footer sticky-bottom"></div>
+		<div class="footer sticky-bottom">
+			<div class="container text-center">
+				<div>
+					<span class=''>
+						<a href="tel:+302426031230" target='_blank'><img class="icons" src="./css/images/icons/phone.png"></a>
+						<a href="mailto:info@sofokleshotel.com"><img class='icons' src="./css/images/icons/mail.png"></a>
+						<a href="https://facebook.com/" target='_blank'><img class="icons" src="./css/images/icons/facebook.png"></a>
+						<a href="https://instagram.com/" target='_blank'><img class="icons" src="./css/images/icons/instagram.png"></a>
+						<a href="https://twitter.com/" target='_blank'><img class="icons" src="./css/images/icons/twitter.png"></a>
+					</span>
+				</div>
+				<hr />
+				<h5>Hotel Sofokles - Pilio</h5>
+			</div>
+		</div>
 	</body><!--
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
